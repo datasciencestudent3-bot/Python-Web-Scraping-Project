@@ -1,19 +1,22 @@
 # Python Job Web Scraping Project 🐍
 
-A Python project that scrapes job listings using Requests and BeautifulSoup and organizes the extracted data with Pandas.
+This project scrapes job listings from the [Fake Python Jobs website](https://realpython.github.io/fake-jobs/) using Python, Requests, and BeautifulSoup.
 
-## Features
-- Extracts job titles and company names
-- Collects job locations and application URLs
-- Saves data to a CSV file
-- Checks missing values using Pandas
+### Project Features
+- Extracts job titles, company names, and locations.
+- Collects job detail page URLs.
+- Saves the scraped data into a CSV file.
+- Checks and handles missing values.
 
-## Technologies
+### Technologies Used
 - Python
 - Requests
-- BeautifulSoup
+- BeautifulSoup (bs4)
 - Pandas
-- CSV
+- CSV / Excel
 
-## Learning Goals
-Practice web scraping, data extraction, and basic data cleaning as part of my Data Science learning journey. 🚀
+### Dataset
+The scraped job listings are included in this repository as an Excel file for easy viewing and further analysis.
+
+### Learning Objective
+To gain practical experience in web scraping, data extraction, and data handling as part of my Data Science learning journey. 🚀
